@@ -1,0 +1,26 @@
+{
+  "name": "Proffesional-Portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Update",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConnorScoma1/Proffesional-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConnorScoma1/Proffesional-Portfolio/issues"
+  },
+  "homepage": "https://github.com/ConnorScoma1/Proffesional-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
