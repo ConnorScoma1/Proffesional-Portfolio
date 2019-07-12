@@ -89,5 +89,48 @@
     &.show {
       transform: translate3d(0, 0, 0)
     }
+
+    .portrait {
+      width: 250px;
+      height: 250px;
+      background: url('https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/13087288_10208265140899150_7003936357299384521_n.jpg?_nc_cat=104&_nc_oc=AQlGEm1dmccjbbnUTB51LV0HupSfSjTLXYOYAJo_LdG1WoU1efBCHFS7iaL7Pbk55iU&_nc_ht=scontent-ort2-2.xx&oh=72a9d93a090fdd0f447adbe322558dd4&oe=5DA0F550');
+      background-size: cover;
+      border-radius: 50%;
+      border: 3px solid $secondary-color;
+    }
+  }
+
+  .nav-item {
+    transform: translate3d(600px, 0, 0);
+    @include easeOut();
+
+    &.show {
+      transform: translate3d(0, 0, 0)
+    }
+
+  }
+
+  .nav-link {
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 1rem 0;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    @include easeOut();
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+// SASS For Loop
+
+@for $x from 1 through 4 {
+  .nav-item:nth-child(#{$x}) {
+    transition-delay: $x * 0.1s;
   }
 }

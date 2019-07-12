@@ -54,6 +54,42 @@
     transition: all 0.5s ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
+    .menu-branding .portrait {
+      width: 250px;
+      height: 250px;
+      background: url("https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/13087288_10208265140899150_7003936357299384521_n.jpg?_nc_cat=104&_nc_oc=AQlGEm1dmccjbbnUTB51LV0HupSfSjTLXYOYAJo_LdG1WoU1efBCHFS7iaL7Pbk55iU&_nc_ht=scontent-ort2-2.xx&oh=72a9d93a090fdd0f447adbe322558dd4&oe=5DA0F550");
+      background-size: cover;
+      border-radius: 50%;
+      border: 3px solid #eece1a; }
+  .menu .nav-item {
+    transform: translate3d(600px, 0, 0);
+    transition: all 0.5s ease-out; }
+    .menu .nav-item.show {
+      transform: translate3d(0, 0, 0); }
+  .menu .nav-link {
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 1rem 0;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease-out; }
+    .menu .nav-link:hover {
+      color: #eece1a; }
+
+.nav-item:nth-child(1) {
+  transition-delay: 0.1s; }
+
+.nav-item:nth-child(2) {
+  transition-delay: 0.2s; }
+
+.nav-item:nth-child(3) {
+  transition-delay: 0.3s; }
+
+.nav-item:nth-child(4) {
+  transition-delay: 0.4s; }
 
 * {
   box-sizing: border-box; }
