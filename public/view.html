@@ -1,16 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta Sections -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Connor Scoma | Portfolio</title>
 
+    <!-- CDN Links -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- External Files -->
     <link rel="stylesheet" href="assets/css/main.css" />
-    <script src="assets/js/app.js"></script>
   </head>
   <body>
-    <h1>Hello World</h1>
-    </h1>
+    <header>
+      <!-- Three Lines For SASS Animation -->
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <!-- Left side of Nav -->
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+
+        <!-- Right Side of Nav -->
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="/" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/about.html" class="nav-link">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/work.html" class="nav-link">
+              My Work
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="nav-link">
+              How To Reach Me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <h1 class="lg-heading">
+        Connor <span class="text-secondary">Scoma</span>
+      </h1>
+      <h2 class="sm-heading">
+        Web Developer, Programmer & Designer
+      </h2>
+
+      <div class="icons">
+        <a href="#!">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="#!">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="#!">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="#!">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="#!">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </div>
+    </main>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>
