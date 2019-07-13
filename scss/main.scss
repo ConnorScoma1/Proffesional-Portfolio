@@ -9,7 +9,7 @@
 body {
   @include background;
   background: $primary-color;
-  color: white;
+  color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -56,6 +56,7 @@ main {
 
   .icons {
     margin-top: 1rem;
+    font-size: 2.5rem;
 
     a {
       padding: 0.4rem;
