@@ -220,6 +220,37 @@ main {
   }
 }
 
+#message {
+  resize: none;
+  font-size: 1rem;
+  color: $secondary-color;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+    &:hover {
+      border: $secondary-color 2px solid;
+      @include easeOut;
+    }
+}
+
+#submit {
+  background: $secondary-color;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+   &:hover {
+     background: $primary-color;
+     border-bottom: $secondary-color 2px solid;
+     border-top: $secondary-color 2px solid;
+     color: #000;
+     @include easeOut;
+
+   }
+}
+
 #main-footer {
   text-align: center;
   padding: 1rem;
