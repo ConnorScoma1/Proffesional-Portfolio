@@ -57,6 +57,7 @@ main {
   .icons {
     margin-top: 1rem;
     font-size: 2.5rem;
+    color: #000; 
 
     a {
       padding: 0.4rem;
@@ -66,7 +67,7 @@ main {
         @include easeOut();
       }
     }
-  }
+  } 
 
   &#home {
     overflow: hidden;

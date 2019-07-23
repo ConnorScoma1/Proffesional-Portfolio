@@ -147,7 +147,8 @@ main {
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem;
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    color: #000; }
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
