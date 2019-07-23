@@ -1,7 +1,6 @@
 @import "config";
 @import "menu";
 
-
 * {
   box-sizing: border-box;
 }
@@ -81,8 +80,8 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    'bioimage bio bio'
-    'job1 job2 job3';
+    "bioimage bio bio"
+    "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -129,7 +128,7 @@ main {
     border-bottom: $secondary-color 3px solid;
 
     &:hover {
-      opacity: .8;
+      opacity: 0.8;
       border: $secondary-color 3px solid;
       @include easeOut;
     }
@@ -140,7 +139,7 @@ main {
 
 .btn {
   display: block;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
   color: set-text-color($secondary-color);
@@ -153,7 +152,7 @@ main {
 
 .btn-dark {
   @extend .btn;
-  background: darken($primary-color, 50)
+  background: darken($primary-color, 50);
 }
 
 .btn-light {
@@ -187,10 +186,10 @@ main {
   color: $secondary-color;
   text-align: center;
 
-    &:hover {
-      border-bottom: $secondary-color 2px solid;
-      @include easeOut;
-    }
+  &:hover {
+    border-bottom: $secondary-color 2px solid;
+    @include easeOut;
+  }
 }
 
 #email {
@@ -201,10 +200,10 @@ main {
   color: $secondary-color;
   text-align: center;
 
-    &:hover {
-      border-bottom: $secondary-color 2px solid;
-      @include easeOut;
-    }
+  &:hover {
+    border-bottom: $secondary-color 2px solid;
+    @include easeOut;
+  }
 }
 
 #subject {
@@ -215,10 +214,10 @@ main {
   color: $secondary-color;
   text-align: center;
 
-    &:hover {
-      border-bottom: $secondary-color 2px solid;
-      @include easeOut;
-    }
+  &:hover {
+    border-bottom: $secondary-color 2px solid;
+    @include easeOut;
+  }
 }
 
 #main-footer {
