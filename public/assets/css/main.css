@@ -341,5 +341,34 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
+  .contact-sec-text {
+    display: block; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .contact-form {
+    padding: 0;
+    margin: 0; }
+  .contact-form {
+    background: #e6e6e6;
+    padding: 0; }
+  .contact-form p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left; }
+  #firstname {
+    height: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: left; }
+  #email {
+    height: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: left; }
+  #subject {
+    height: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: left; }
+  #message {
+    border: #d900ff 1px solid; } }
