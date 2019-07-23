@@ -215,6 +215,56 @@ main {
 .btn-dark {
   background: gray; }
 
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #e6e6e6;
+  padding-right: 15rem;
+  padding-left: 15rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.contact-form p {
+  color: #d900ff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+#firstname {
+  border: none;
+  height: 2rem;
+  font-size: 2rem;
+  padding: 2rem;
+  color: #d900ff;
+  text-align: center; }
+  #firstname:hover {
+    border-bottom: #d900ff 2px solid;
+    transition: all 0.5s ease-out; }
+
+#email {
+  border: none;
+  height: 2rem;
+  font-size: 2rem;
+  padding: 2rem;
+  color: #d900ff;
+  text-align: center; }
+  #email:hover {
+    border-bottom: #d900ff 2px solid;
+    transition: all 0.5s ease-out; }
+
+#subject {
+  border: none;
+  height: 2rem;
+  font-size: 2rem;
+  padding: 2rem;
+  color: #d900ff;
+  text-align: center; }
+  #subject:hover {
+    border-bottom: #d900ff 2px solid;
+    transition: all 0.5s ease-out; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
