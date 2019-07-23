@@ -66,7 +66,22 @@
         Let's Have Coffee And Code
       </h2>
       <div class="contact-info">
-        
+        <form action="post" class="contact-form">
+          <p>Full Name</p>
+            <input type="text" placeholder="Ex: John Doe" name="firstname" id="firstname">
+            <br>
+          <p>Email</p>
+          <input type="text" name="email" id="email" placeholder="Ex: johndoe@email.com">
+          <br>
+          <p>Phone</p>
+          <input type="tel" name="phone" id="phone" placeholder="Ex: 555-555-5555">
+          <br>
+        <input type="radio" name="contact" value="work" checked> Work
+        <input type="radio" name="contact" value"personal"> Personal
+        <br>
+
+        <input type="submit" value="Submit">
+        </form>
       </div>
       
     </main>
