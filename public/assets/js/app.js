@@ -28,7 +28,7 @@ function randomBackground() {
 window.addEventListener('load', function(){
   
   //randomBackground();
-  setInterval( () => randomBackground(), 3000 )
+  setInterval( () => randomBackground(), 5000 )
 
 }, false)
 
