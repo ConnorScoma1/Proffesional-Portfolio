@@ -104,6 +104,7 @@ body {
   body#bg-image {
     background: url(../img/background.jpg);
     background-attachment: fixed;
+    transition: 3s ease;
     background-size: cover; }
     body#bg-image .overlay {
       position: absolute;
@@ -162,7 +163,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio"
+ "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
 
 .bio-img {
@@ -334,7 +336,11 @@ main {
       height: 150px;
       width: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage"
+ "bio"
+ "job1"
+ "job2"
+ "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
