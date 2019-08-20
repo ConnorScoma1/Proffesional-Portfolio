@@ -12,9 +12,9 @@ let showMenu = false;
 
 // background picker
 function randomBackground() {
-  var randomSelector = Math.floor(Math.random() * 4) + 0;
+  const randomSelector = Math.floor(Math.random() * 4) + 0;
   
-  var backgroundSelector = [
+  const backgroundSelector = [
     "url('https://i.pinimg.com/originals/1a/58/30/1a5830c8c6a4c011a027a75163b644c2.jpg')",
     "url('https://wallpaperplay.com/walls/full/f/4/9/87849.jpg')",
     "url('https://pixelz.cc/wp-content/uploads/2018/12/forest-lake-cabin-landscape-uhd-4k-wallpaper.jpg')",
@@ -26,7 +26,10 @@ function randomBackground() {
 
 
 window.addEventListener('load', function(){
-  randomBackground();
+  
+  //randomBackground();
+  setInterval( () => randomBackground(), 3000 )
+
 }, false)
 
 
