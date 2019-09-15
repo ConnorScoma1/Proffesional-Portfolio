@@ -446,4 +446,9 @@ main {
   .fa-envelope {
     visibility: hidden;
   }
+  .resume-link {
+    border: 1px solid #d900ff;
+    padding: 1rem;
+  }
 }
+
