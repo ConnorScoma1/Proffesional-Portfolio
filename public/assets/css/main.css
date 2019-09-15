@@ -379,3 +379,71 @@ main {
     text-align: left; }
   #message {
     border: #d900ff 1px solid; } }
+
+
+.email-container {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.phone-container {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.fa-envelope {
+  display: inline;
+}
+
+.email {
+  display: inline;
+}
+
+.fa-phone {
+  display: inline;
+}
+
+.phone {
+  display: inline;
+}
+
+.contact-info {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10%;
+}
+
+.phone-span {
+  color: #d900ff;
+}
+
+.email-span {
+  color: #d900ff;
+}
+
+@media screen and (max-width: 500px) {
+  .email-container{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .phone-container {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .email {
+    display: inline;
+  }
+  .contact-info {
+    margin: auto;
+    width: 100%;
+    padding: 5px;
+    margin-top: 25%;
+  }
+  .fa-phone {
+    visibility: hidden;
+  }
+  .fa-envelope {
+    visibility: hidden;
+  }
+}
