@@ -21,7 +21,7 @@
   "homepage": "https://github.com/ConnorScoma1/Proffesional-Portfolio#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.19.1",
     "path": "^0.12.7",
     "sass": "^1.22.3"
