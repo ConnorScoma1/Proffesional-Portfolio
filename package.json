@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ConnorScoma1/Proffesional-Portfolio#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "node-sass": "^4.12.0",
     "nodemon": "^1.19.1",
     "path": "^0.12.7",
